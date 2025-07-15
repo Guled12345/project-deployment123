@@ -34,6 +34,8 @@ rich
 rpds-py
 scikit-learn
 scipy
+seaborn
+matplotlib
 six
 smmap
 streamlit
@@ -49,3 +51,4 @@ validators
 watchdog
 zipp
 streamlit-lottie
+supabase
