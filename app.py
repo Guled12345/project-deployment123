@@ -10,13 +10,6 @@ import os
 import pickle
 import random
 
-from supabase import create_client
-
-SUPABASE_URL = 'https://ougndpotiqrglconulwd.supabase.co'
-SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im91Z25kcG90aXFyZ2xjb251bHdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI1NTY2NTEsImV4cCI6MjA2ODEzMjY1MX0.cZ_hLBglOKxcTzRDx4DCPTI8nj7YwRMhr2_WffCrqLo'
-
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-
 # Import utilities
 from utils.language_utils import get_text, load_app_settings, save_app_settings
 from utils.data_utils import load_student_data
